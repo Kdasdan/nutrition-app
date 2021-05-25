@@ -1,0 +1,50 @@
+p {
+  color: black;
+}
+
+.content {
+  @media (max-width: 959px) {
+    display: flex;
+  }
+}
+
+#left {
+  padding: 0;
+  margin: 0;
+
+  #left-top {
+    padding: 0;
+  }
+
+  @media (max-width: 959px) {
+    order: 2;
+  }
+  #left-bottom {
+    background-color: $color1;
+    p {
+      color: white;
+    }
+
+    h3 {
+      color: $color2;
+    }
+    @media (max-width: 959px) {
+      background-color: $color1;
+      p {
+        color: white;
+      }
+
+      h3 {
+        color: $color2;
+      }
+    }
+  }
+}
+
+#right {
+  padding: 0;
+  margin: 0;
+  @media (max-width: 959px) {
+    order: 1;
+  }
+}

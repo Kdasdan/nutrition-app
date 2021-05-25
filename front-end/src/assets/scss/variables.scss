@@ -1,0 +1,59 @@
+$color1: #3891a6 !important;
+$color2: #d74e09 !important;
+$color3: #fbfaf8 !important;
+$color4: #797d81 !important;
+$color5: #eee !important;
+
+// BACKGROUND-COLOR
+.bg-first {
+  background-color: $color1;
+}
+
+.bg-second {
+  background-color: $color2;
+}
+
+.bg-third {
+  background-color: $color3;
+}
+
+.bg-fourth {
+  background-color: $color4;
+}
+
+.bg-fifth {
+  background-color: $color5;
+}
+// TEXT COLOR
+.first--text {
+  color: $color1;
+}
+
+.second--text {
+  color: $color2;
+}
+
+.third--text {
+  color: $color3;
+}
+
+.fourth--text {
+  color: $color4;
+}
+
+.fifth--text {
+  color: $color5;
+}
+// EXTRA
+// #content {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+// }
+.content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

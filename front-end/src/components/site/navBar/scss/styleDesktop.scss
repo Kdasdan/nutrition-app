@@ -1,0 +1,16 @@
+#logo {
+  width: 150px !important;
+  height: 60px !important;
+  background: no-repeat 100% / cover
+    url('../../../assets/images/logo/logoN.png');
+  cursor: pointer;
+}
+.router-link {
+  color: black;
+  text-decoration: none;
+}
+.router-link-active {
+  color: $color1;
+  text-decoration: underline;
+  text-decoration-color: $color2;
+}

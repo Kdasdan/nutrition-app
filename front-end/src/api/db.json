@@ -1,0 +1,10 @@
+{
+  "category": [
+    {
+      "primtemps": "Printemps",
+      "ete": "Été",
+      "automne": "Automne",
+      "hiver": "Hiver"
+    }
+  ]
+}
